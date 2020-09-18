@@ -620,4 +620,12 @@ class ApiContext extends WebTestCase implements ApiClientAwareContext, ArrayCont
 //
 //        return $this;
     }
+
+    /**
+     * @inheritDoc
+     */
+    function setArrayContainsComparator(ArrayContainsComparator $comparator)
+    {
+        // TODO: Implement setArrayContainsComparator() method.
+    }
 }
