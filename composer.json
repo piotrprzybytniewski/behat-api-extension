@@ -1,23 +1,22 @@
 {
-  "name": "imbo/behat-api-extension",
+  "name": "selfmadeking/behat-api-extension",
   "type": "library",
-  "description": "API extension for Behat",
+  "description": "Behat API Extension",
   "keywords": ["behat", "testing", "api", "REST", "http"],
-  "homepage": "https://github.com/imbo/behat-api-extension",
+  "homepage": "https://github.com/selfmadeking/behat-api-extension",
   "license": "MIT",
   "authors": [{
-    "name": "Christer Edvartsen",
-    "email": "cogo@starzinger.net",
-    "homepage": "https://github.com/christeredvartsen"
+    "name": "Piotr Przybytniewski",
+    "email": "piotr.przybytniewski@gmail.com",
+    "homepage": "https://github.com/selfmadeking"
   }, {
     "name": "Contributors",
-    "homepage": "https://github.com/imbo/behat-api-extension/graphs/contributors"
+    "homepage": "https://github.com/selfmadeking/behat-api-extension/graphs/contributors"
   }],
   "support": {
-    "source": "https://github.com/imbo/behat-api-extension",
-    "docs": "http://behat-api-extension.readthedocs.io/",
-    "issues": "https://github.com/imbo/behat-api-extension/issues",
-    "irc": "irc://irc.freenode.net/imbo"
+    "source": "https://github.com/selfmadeking/behat-api-extension",
+    "docs": "https://github.com/selfmadeking/behat-api-extension",
+    "issues": "https://github.com/selfmadeking/behat-api-extension/issues"
   },
   "require": {
     "php": ">=7.2.5",
