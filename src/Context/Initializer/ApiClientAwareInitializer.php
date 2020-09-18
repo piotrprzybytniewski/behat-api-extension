@@ -42,7 +42,7 @@ class ApiClientAwareInitializer implements ContextInitializer {
                 throw new RuntimeException(sprintf('Can\'t connect to base_uri: "%s".', $baseUri));
             }
 
-            $context->setClient(new Client($this->guzzleConfig));
+//            $context->setClient(new Client($this->guzzleConfig));
         }
     }
 
