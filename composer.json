@@ -70,7 +70,6 @@
       "@test"
     ],
     "dev": "php -S localhost:8080 -t ./features/bootstrap > server.log 2>&1",
-    "docs": "cd docs; make html"
   },
   "config": {
     "platform": {
