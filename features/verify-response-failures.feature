@@ -10,13 +10,13 @@ Feature: Assertion steps can fail
                 formatters:
                     progress: ~
                 extensions:
-                    Imbo\BehatApiExtension:
+                    Selfmadeking\BehatApiExtension:
                         apiClient:
                             base_uri: http://localhost:8080
 
                 suites:
                     default:
-                        contexts: ['Imbo\BehatApiExtension\Context\ApiContext']
+                        contexts: ['Selfmadeking\BehatApiExtension\Context\ApiContext']
             """
 
     Scenario: Assert that the response is not failure
@@ -30,7 +30,7 @@ Feature: Assertion steps can fail
         When I run "behat features/assert-response-code-is-not.feature"
         Then it should fail with:
             """
-            Did not expect response code 200. (Imbo\BehatApiExtension\Exception\AssertionFailedException)
+            Did not expect response code 200. (Selfmadeking\BehatApiExtension\Exception\AssertionFailedException)
             """
 
     Scenario: Assert response reason phrase failure
@@ -44,7 +44,7 @@ Feature: Assertion steps can fail
         When I run "behat features/assert-response-reason-phrase.feature"
         Then it should fail with:
             """
-            Expected response reason phrase "ok", got "OK". (Imbo\BehatApiExtension\Exception\AssertionFailedException)
+            Expected response reason phrase "ok", got "OK". (Selfmadeking\BehatApiExtension\Exception\AssertionFailedException)
             """
 
     Scenario: Assert response reason phrase is not failure
@@ -58,7 +58,7 @@ Feature: Assertion steps can fail
         When I run "behat features/assert-response-reason-phrase-is-not.feature"
         Then it should fail with:
             """
-            Did not expect response reason phrase "OK". (Imbo\BehatApiExtension\Exception\AssertionFailedException)
+            Did not expect response reason phrase "OK". (Selfmadeking\BehatApiExtension\Exception\AssertionFailedException)
             """
 
     Scenario: Assert response reason phrase matches failure
@@ -72,7 +72,7 @@ Feature: Assertion steps can fail
         When I run "behat features/assert-response-reason-phrase-matches.feature"
         Then it should fail with:
             """
-            Expected the response reason phrase to match the regular expression "/FOOBAR/", got "OK". (Imbo\BehatApiExtension\Exception\AssertionFailedException)
+            Expected the response reason phrase to match the regular expression "/FOOBAR/", got "OK". (Selfmadeking\BehatApiExtension\Exception\AssertionFailedException)
             """
 
     Scenario: Assert response status line failure
@@ -86,7 +86,7 @@ Feature: Assertion steps can fail
         When I run "behat features/assert-response-status-line.feature"
         Then it should fail with:
             """
-            Expected response status line "200 ok", got "200 OK". (Imbo\BehatApiExtension\Exception\AssertionFailedException)
+            Expected response status line "200 ok", got "200 OK". (Selfmadeking\BehatApiExtension\Exception\AssertionFailedException)
             """
 
     Scenario: Assert response status line is not failure
@@ -100,7 +100,7 @@ Feature: Assertion steps can fail
         When I run "behat features/assert-response-status-line-is-not.feature"
         Then it should fail with:
             """
-            Did not expect response status line "200 OK". (Imbo\BehatApiExtension\Exception\AssertionFailedException)
+            Did not expect response status line "200 OK". (Selfmadeking\BehatApiExtension\Exception\AssertionFailedException)
             """
 
     Scenario: Assert response status line matches failure
@@ -114,7 +114,7 @@ Feature: Assertion steps can fail
         When I run "behat features/assert-response-status-line-matches.feature"
         Then it should fail with:
             """
-            Expected the response status line to match the regular expression "/200 ok/", got "200 OK". (Imbo\BehatApiExtension\Exception\AssertionFailedException)
+            Expected the response status line to match the regular expression "/200 ok/", got "200 OK". (Selfmadeking\BehatApiExtension\Exception\AssertionFailedException)
             """
 
     Scenario: Assert response group is failure
@@ -128,7 +128,7 @@ Feature: Assertion steps can fail
         When I run "behat features/assert-response-group.feature"
         Then it should fail with:
             """
-            Expected response group "informational", got "success" (response code: 200). (Imbo\BehatApiExtension\Exception\AssertionFailedException)
+            Expected response group "informational", got "success" (response code: 200). (Selfmadeking\BehatApiExtension\Exception\AssertionFailedException)
             """
 
     Scenario: Assert response group is not failure
@@ -142,7 +142,7 @@ Feature: Assertion steps can fail
         When I run "behat features/assert-response-group-is-not.feature"
         Then it should fail with:
             """
-            Did not expect response to be in the "success" group (response code: 200). (Imbo\BehatApiExtension\Exception\AssertionFailedException)
+            Did not expect response to be in the "success" group (response code: 200). (Selfmadeking\BehatApiExtension\Exception\AssertionFailedException)
             """
 
     Scenario: Assert response header exists failure
@@ -156,7 +156,7 @@ Feature: Assertion steps can fail
         When I run "behat features/assert-response-header-exists.feature"
         Then it should fail with:
             """
-            The "FOO" response header does not exist. (Imbo\BehatApiExtension\Exception\AssertionFailedException)
+            The "FOO" response header does not exist. (Selfmadeking\BehatApiExtension\Exception\AssertionFailedException)
             """
 
     Scenario: Assert response header exists does not exist failure
@@ -170,7 +170,7 @@ Feature: Assertion steps can fail
         When I run "behat features/assert-response-header-does-not-exist.feature"
         Then it should fail with:
             """
-            The "X-Foo" response header should not exist. (Imbo\BehatApiExtension\Exception\AssertionFailedException)
+            The "X-Foo" response header should not exist. (Selfmadeking\BehatApiExtension\Exception\AssertionFailedException)
             """
 
     Scenario: Assert response header is failure
@@ -184,7 +184,7 @@ Feature: Assertion steps can fail
         When I run "behat features/assert-response-header-is.feature"
         Then it should fail with:
             """
-            Expected the "X-Foo" response header to be "bar", got "foo". (Imbo\BehatApiExtension\Exception\AssertionFailedException)
+            Expected the "X-Foo" response header to be "bar", got "foo". (Selfmadeking\BehatApiExtension\Exception\AssertionFailedException)
             """
 
     Scenario: Assert response header is not failure
@@ -198,7 +198,7 @@ Feature: Assertion steps can fail
         When I run "behat features/assert-response-header-is-not.feature"
         Then it should fail with:
             """
-            Did not expect the "X-Foo" response header to be "foo". (Imbo\BehatApiExtension\Exception\AssertionFailedException)
+            Did not expect the "X-Foo" response header to be "foo". (Selfmadeking\BehatApiExtension\Exception\AssertionFailedException)
             """
 
     Scenario: Assert response header matches failure
@@ -212,7 +212,7 @@ Feature: Assertion steps can fail
         When I run "behat features/assert-response-header-matches.feature"
         Then it should fail with:
             """
-            Expected the "X-Foo" response header to match the regular expression "/bar/", got "foo". (Imbo\BehatApiExtension\Exception\AssertionFailedException)
+            Expected the "X-Foo" response header to match the regular expression "/bar/", got "foo". (Selfmadeking\BehatApiExtension\Exception\AssertionFailedException)
             """
 
     Scenario: Assert response body is empty object failure
@@ -239,7 +239,7 @@ Feature: Assertion steps can fail
             """
         And the output should contain:
             """
-            }". (Imbo\BehatApiExtension\Exception\AssertionFailedException)
+            }". (Selfmadeking\BehatApiExtension\Exception\AssertionFailedException)
             """
 
     Scenario: Assert response body is empty array failure
@@ -266,7 +266,7 @@ Feature: Assertion steps can fail
             """
         And the output should contain:
             """
-            ]". (Imbo\BehatApiExtension\Exception\AssertionFailedException)
+            ]". (Selfmadeking\BehatApiExtension\Exception\AssertionFailedException)
             """
 
     Scenario: Assert response body JSON array length failure
@@ -293,7 +293,7 @@ Feature: Assertion steps can fail
             """
         And the output should contain:
             """
-            ]". (Imbo\BehatApiExtension\Exception\AssertionFailedException)
+            ]". (Selfmadeking\BehatApiExtension\Exception\AssertionFailedException)
             """
 
     Scenario: Assert response body JSON array min length failure
@@ -320,7 +320,7 @@ Feature: Assertion steps can fail
             """
         And the output should contain:
             """
-            ]". (Imbo\BehatApiExtension\Exception\AssertionFailedException)
+            ]". (Selfmadeking\BehatApiExtension\Exception\AssertionFailedException)
             """
 
     Scenario: Assert response body JSON array max length failure
@@ -351,7 +351,7 @@ Feature: Assertion steps can fail
             """
         And the output should contain:
             """
-            ]". (Imbo\BehatApiExtension\Exception\AssertionFailedException)
+            ]". (Selfmadeking\BehatApiExtension\Exception\AssertionFailedException)
             """
 
     Scenario: Assert response body is failure
@@ -372,7 +372,7 @@ Feature: Assertion steps can fail
         When I run "behat features/assert-response-body-is.feature"
         Then it should fail with:
             """
-            Expected response body "foobar", got "response body". (Imbo\BehatApiExtension\Exception\AssertionFailedException)
+            Expected response body "foobar", got "response body". (Selfmadeking\BehatApiExtension\Exception\AssertionFailedException)
             """
 
     Scenario: Assert response body is not failure
@@ -393,7 +393,7 @@ Feature: Assertion steps can fail
         When I run "behat features/assert-response-body-is-not.feature"
         Then it should fail with:
             """
-            Did not expect response body to be "response body". (Imbo\BehatApiExtension\Exception\AssertionFailedException)
+            Did not expect response body to be "response body". (Selfmadeking\BehatApiExtension\Exception\AssertionFailedException)
             """
 
     Scenario: Assert response body matches failure
@@ -414,5 +414,5 @@ Feature: Assertion steps can fail
         When I run "behat features/assert-response-body-matches.feature"
         Then it should fail with:
             """
-            Expected response body to match regular expression "/foobar/", got "response body". (Imbo\BehatApiExtension\Exception\AssertionFailedException)
+            Expected response body to match regular expression "/foobar/", got "response body". (Selfmadeking\BehatApiExtension\Exception\AssertionFailedException)
             """

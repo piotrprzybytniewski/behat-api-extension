@@ -1,7 +1,7 @@
 <?php declare(strict_types=1);
-namespace Imbo\BehatApiExtension\Context;
+namespace Selfmadeking\BehatApiExtension\Context;
 
-use Imbo\BehatApiExtension\ArrayContainsComparator;
+use Selfmadeking\BehatApiExtension\ArrayContainsComparator;
 use Behat\Behat\Context\Context;
 
 /**

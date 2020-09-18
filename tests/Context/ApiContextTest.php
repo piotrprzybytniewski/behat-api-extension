@@ -1,9 +1,9 @@
 <?php declare(strict_types=1);
-namespace Imbo\BehatApiExtension\Context;
+namespace Selfmadeking\BehatApiExtension\Context;
 
-use Imbo\BehatApiExtension\ArrayContainsComparator;
-use Imbo\BehatApiExtension\ArrayContainsComparator\Matcher\JWT;
-use Imbo\BehatApiExtension\Exception\AssertionFailedException;
+use Selfmadeking\BehatApiExtension\ArrayContainsComparator;
+use Selfmadeking\BehatApiExtension\ArrayContainsComparator\Matcher\JWT;
+use Selfmadeking\BehatApiExtension\Exception\AssertionFailedException;
 use PHPUnit\Framework\TestCase;
 use PHPUnit\Framework\MockObject\MockObject;
 use GuzzleHttp\Client;
@@ -46,7 +46,7 @@ function is_readable(string $path) : bool {
 }
 
 /**
- * @coversDefaultClass Imbo\BehatApiExtension\Context\ApiContext
+ * @coversDefaultClass Selfmadeking\BehatApiExtension\Context\ApiContext
  */
 class ApiContextTest extends TestCase {
     /** @var MockHandler */
@@ -785,7 +785,7 @@ BAR;
             ->willReturn('json_encode');
 
         $this->expectException(RuntimeException::class);
-        $this->expectExceptionMessage('Matcher registered for the @jwt() matcher function must be an instance of Imbo\BehatApiExtension\ArrayContainsComparator\Matcher\JWT');
+        $this->expectExceptionMessage('Matcher registered for the @jwt() matcher function must be an instance of Selfmadeking\BehatApiExtension\ArrayContainsComparator\Matcher\JWT');
 
         $this->context->addJwtToken('name', 'secret', new PyStringNode(['{"some":"data"}'], 1));
     }

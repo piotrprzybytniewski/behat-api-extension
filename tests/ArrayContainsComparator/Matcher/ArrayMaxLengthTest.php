@@ -1,11 +1,11 @@
 <?php declare(strict_types=1);
-namespace Imbo\BehatApiExtension\ArrayContainsComparator\Matcher;
+namespace Selfmadeking\BehatApiExtension\ArrayContainsComparator\Matcher;
 
 use PHPUnit\Framework\TestCase;
 use InvalidArgumentException;
 
 /**
- * @coversDefaultClass Imbo\BehatApiExtension\ArrayContainsComparator\Matcher\ArrayMaxLength
+ * @coversDefaultClass Selfmadeking\BehatApiExtension\ArrayContainsComparator\Matcher\ArrayMaxLength
  */
 class ArrayMaxLengthTest extends TestCase {
     /** @var ArrayMaxLength */

@@ -1,9 +1,9 @@
 <?php declare(strict_types=1);
-namespace Imbo\BehatApiExtension\ArrayContainsComparator\Matcher;
+namespace Selfmadeking\BehatApiExtension\ArrayContainsComparator\Matcher;
 
 use Firebase;
 use InvalidArgumentException;
-use Imbo\BehatApiExtension\ArrayContainsComparator as Comparator;
+use Selfmadeking\BehatApiExtension\ArrayContainsComparator as Comparator;
 
 /**
  * Match a JWT token

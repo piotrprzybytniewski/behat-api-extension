@@ -1,13 +1,13 @@
 <?php declare(strict_types=1);
-namespace Imbo\BehatApiExtension\Context\Initializer;
+namespace Selfmadeking\BehatApiExtension\Context\Initializer;
 
-use Imbo\BehatApiExtension\Context\ArrayContainsComparatorAwareContext;
-use Imbo\BehatApiExtension\ArrayContainsComparator;
-use Imbo\BehatApiExtension\ArrayContainsComparator\Matcher;
+use Selfmadeking\BehatApiExtension\Context\ArrayContainsComparatorAwareContext;
+use Selfmadeking\BehatApiExtension\ArrayContainsComparator;
+use Selfmadeking\BehatApiExtension\ArrayContainsComparator\Matcher;
 use PHPUnit\Framework\TestCase;
 
 /**
- * @coversDefaultClass Imbo\BehatApiExtension\Context\Initializer\ArrayContainsComparatorAwareInitializer
+ * @coversDefaultClass Selfmadeking\BehatApiExtension\Context\Initializer\ArrayContainsComparatorAwareInitializer
  */
 class ArrayContainsComparatorAwareInitializerTest extends TestCase {
     /**

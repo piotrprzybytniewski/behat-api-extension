@@ -1,5 +1,5 @@
 <?php declare(strict_types=1);
-namespace Imbo\BehatApiExtension\ServiceContainer;
+namespace Selfmadeking\BehatApiExtension\ServiceContainer;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\Processor;
@@ -7,7 +7,7 @@ use Symfony\Component\Config\Definition\Builder\ArrayNodeDefinition;
 use PHPUnit\Framework\TestCase;
 
 /**
- * @coversDefaultClass Imbo\BehatApiExtension\ServiceContainer\BehatApiExtension
+ * @coversDefaultClass Selfmadeking\BehatApiExtension\ServiceContainer\BehatApiExtension
  */
 class BehatApiExtensionTest extends TestCase {
     /** @var BehatApiExtension */

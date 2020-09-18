@@ -7,7 +7,7 @@ Feature: Client aware context
         Given a file named "features/bootstrap/FeatureContext.php" with:
             """
             <?php
-            use Imbo\BehatApiExtension\Context\ApiClientAwareContext;
+            use Selfmadeking\BehatApiExtension\Context\ApiClientAwareContext;
             use GuzzleHttp\ClientInterface;
             use Assert\Assertion;
 
@@ -32,7 +32,7 @@ Feature: Client aware context
             """
             default:
                 extensions:
-                    Imbo\BehatApiExtension: ~
+                    Selfmadeking\BehatApiExtension: ~
             """
         And a file named "features/client.feature" with:
             """
@@ -58,7 +58,7 @@ Feature: Client aware context
             """
             default:
                 extensions:
-                    Imbo\BehatApiExtension:
+                    Selfmadeking\BehatApiExtension:
                         apiClient:
                             base_uri: http://localhost:9999
             """

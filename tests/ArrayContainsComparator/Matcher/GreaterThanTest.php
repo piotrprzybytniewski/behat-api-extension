@@ -1,11 +1,11 @@
 <?php declare(strict_types=1);
-namespace Imbo\BehatApiExtension\ArrayContainsComparator\Matcher;
+namespace Selfmadeking\BehatApiExtension\ArrayContainsComparator\Matcher;
 
 use InvalidArgumentException;
 use PHPUnit\Framework\TestCase;
 
 /**
- * @coversDefaultClass Imbo\BehatApiExtension\ArrayContainsComparator\Matcher\GreaterThan
+ * @coversDefaultClass Selfmadeking\BehatApiExtension\ArrayContainsComparator\Matcher\GreaterThan
  */
 class GreaterThanTest extends TestCase {
     /** @var GreaterThan */

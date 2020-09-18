@@ -1,9 +1,9 @@
 <?php declare(strict_types=1);
-namespace Imbo\BehatApiExtension\Context\Initializer;
+namespace Selfmadeking\BehatApiExtension\Context\Initializer;
 
-use Imbo\BehatApiExtension\ArrayContainsComparator\Matcher;
-use Imbo\BehatApiExtension\ArrayContainsComparator as Comparator;
-use Imbo\BehatApiExtension\Context\ArrayContainsComparatorAwareContext;
+use Selfmadeking\BehatApiExtension\ArrayContainsComparator\Matcher;
+use Selfmadeking\BehatApiExtension\ArrayContainsComparator as Comparator;
+use Selfmadeking\BehatApiExtension\Context\ArrayContainsComparatorAwareContext;
 use Behat\Behat\Context\Context;
 use Behat\Behat\Context\Initializer\ContextInitializer;
 

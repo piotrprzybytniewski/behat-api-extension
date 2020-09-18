@@ -1,11 +1,11 @@
 <?php declare(strict_types=1);
-namespace Imbo\BehatApiExtension\ArrayContainsComparator\Matcher;
+namespace Selfmadeking\BehatApiExtension\ArrayContainsComparator\Matcher;
 
 use PHPUnit\Framework\TestCase;
 use InvalidArgumentException;
 
 /**
- * @coversDefaultClass Imbo\BehatApiExtension\ArrayContainsComparator\Matcher\ArrayMinLength
+ * @coversDefaultClass Selfmadeking\BehatApiExtension\ArrayContainsComparator\Matcher\ArrayMinLength
  */
 class ArrayMinLengthTest extends TestCase {
     /** @var ArrayMinLength */

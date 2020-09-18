@@ -1,5 +1,5 @@
 <?php declare(strict_types=1);
-namespace Imbo\BehatApiExtension\Context;
+namespace Selfmadeking\BehatApiExtension\Context;
 
 use Behat\Behat\Context\Context;
 use GuzzleHttp\ClientInterface;

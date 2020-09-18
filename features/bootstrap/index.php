@@ -1,5 +1,5 @@
 <?php
-namespace Imbo\BehatApiExtension;
+namespace Selfmadeking\BehatApiExtension;
 
 use Slim\Factory\AppFactory;
 use Tuupola\Middleware\HttpBasicAuthentication;

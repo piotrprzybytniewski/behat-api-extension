@@ -1,13 +1,13 @@
 <?php declare(strict_types=1);
-namespace Imbo\BehatApiExtension\ArrayContainsComparator\Matcher;
+namespace Selfmadeking\BehatApiExtension\ArrayContainsComparator\Matcher;
 
-use Imbo\BehatApiExtension\ArrayContainsComparator;
-use Imbo\BehatApiExtension\Exception\ArrayContainsComparatorException;
+use Selfmadeking\BehatApiExtension\ArrayContainsComparator;
+use Selfmadeking\BehatApiExtension\Exception\ArrayContainsComparatorException;
 use PHPUnit\Framework\TestCase;
 use InvalidArgumentException;
 
 /**
- * @coversDefaultClass Imbo\BehatApiExtension\ArrayContainsComparator\Matcher\JWT
+ * @coversDefaultClass Selfmadeking\BehatApiExtension\ArrayContainsComparator\Matcher\JWT
  */
 class JWTTest extends TestCase {
     /** @var JWT */

@@ -10,13 +10,13 @@ Feature: Test Given steps
                 formatters:
                     progress: ~
                 extensions:
-                    Imbo\BehatApiExtension:
+                    Selfmadeking\BehatApiExtension:
                         apiClient:
                             base_uri: http://localhost:8080
 
                 suites:
                     default:
-                        contexts: ['Imbo\BehatApiExtension\Context\ApiContext']
+                        contexts: ['Selfmadeking\BehatApiExtension\Context\ApiContext']
             """
 
     Scenario: Use all Given steps to set up the request

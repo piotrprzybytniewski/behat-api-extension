@@ -1,13 +1,13 @@
 <?php declare(strict_types=1);
-namespace Imbo\BehatApiExtension\Context\Initializer;
+namespace Selfmadeking\BehatApiExtension\Context\Initializer;
 
-use Imbo\BehatApiExtension\Context\ApiClientAwareContext;
+use Selfmadeking\BehatApiExtension\Context\ApiClientAwareContext;
 use GuzzleHttp\Client;
 use PHPUnit\Framework\TestCase;
 use RuntimeException;
 
 /**
- * @coversDefaultClass Imbo\BehatApiExtension\Context\Initializer\ApiClientAwareInitializer
+ * @coversDefaultClass Selfmadeking\BehatApiExtension\Context\Initializer\ApiClientAwareInitializer
  */
 class ApiClientAwareInitializerTest extends TestCase {
     /**

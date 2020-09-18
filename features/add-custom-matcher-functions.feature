@@ -7,8 +7,8 @@ Feature: Custom function addition
         Given a file named "features/bootstrap/FeatureContext.php" with:
             """
             <?php
-            use Imbo\BehatApiExtension\Context\ApiContext;
-            use Imbo\BehatApiExtension\ArrayContainsComparator;
+            use Selfmadeking\BehatApiExtension\Context\ApiContext;
+            use Selfmadeking\BehatApiExtension\ArrayContainsComparator;
             use Assert\Assertion;
 
             class MyMatcher {
@@ -56,7 +56,7 @@ Feature: Custom function addition
                 formatters:
                     progress: ~
                 extensions:
-                    Imbo\BehatApiExtension: ~
+                    Selfmadeking\BehatApiExtension: ~
             """
         And a file named "features/test-custom-function.feature" with:
             """
@@ -84,7 +84,7 @@ Feature: Custom function addition
                 formatters:
                     progress: ~
                 extensions:
-                    Imbo\BehatApiExtension: ~
+                    Selfmadeking\BehatApiExtension: ~
             """
         And a file named "features/test-custom-function-failure.feature" with:
             """
@@ -109,7 +109,7 @@ Feature: Custom function addition
                 formatters:
                     progress: ~
                 extensions:
-                    Imbo\BehatApiExtension: ~
+                    Selfmadeking\BehatApiExtension: ~
             """
         And a file named "features/test-custom-matcher-class.feature" with:
             """
@@ -143,7 +143,7 @@ Feature: Custom function addition
                 formatters:
                     progress: ~
                 extensions:
-                    Imbo\BehatApiExtension: ~
+                    Selfmadeking\BehatApiExtension: ~
             """
         And a file named "features/test-custom-matcher-class-in-list.feature" with:
             """
@@ -179,7 +179,7 @@ Feature: Custom function addition
                 formatters:
                     progress: ~
                 extensions:
-                    Imbo\BehatApiExtension: ~
+                    Selfmadeking\BehatApiExtension: ~
             """
         And a file named "features/test-custom-matcher-class-fails.feature" with:
             """
@@ -210,7 +210,7 @@ Feature: Custom function addition
                 formatters:
                     progress: ~
                 extensions:
-                    Imbo\BehatApiExtension: ~
+                    Selfmadeking\BehatApiExtension: ~
             """
         And a file named "features/test-custom-matcher-class-fails-in-list.feature" with:
             """

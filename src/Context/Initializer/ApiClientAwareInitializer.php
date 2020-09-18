@@ -1,7 +1,7 @@
 <?php declare(strict_types=1);
-namespace Imbo\BehatApiExtension\Context\Initializer;
+namespace Selfmadeking\BehatApiExtension\Context\Initializer;
 
-use Imbo\BehatApiExtension\Context\ApiClientAwareContext;
+use Selfmadeking\BehatApiExtension\Context\ApiClientAwareContext;
 use Behat\Behat\Context\Context;
 use Behat\Behat\Context\Initializer\ContextInitializer;
 use GuzzleHttp\Client;

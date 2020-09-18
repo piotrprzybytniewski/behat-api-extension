@@ -1,11 +1,11 @@
 <?php declare(strict_types=1);
-namespace Imbo\BehatApiExtension\Exception;
+namespace Selfmadeking\BehatApiExtension\Exception;
 
-use Imbo\BehatApiExtension\Exception\ArrayContainsComparatorException;
+use Selfmadeking\BehatApiExtension\Exception\ArrayContainsComparatorException;
 use PHPUnit\Framework\TestCase;
 
 /**
- * @coversDefaultClass Imbo\BehatApiExtension\Exception\ArrayContainsComparatorException
+ * @coversDefaultClass Selfmadeking\BehatApiExtension\Exception\ArrayContainsComparatorException
  */
 class ArrayContainsComparatorExceptionTest extends TestCase {
     /**

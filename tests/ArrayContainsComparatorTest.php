@@ -1,13 +1,13 @@
 <?php declare(strict_types=1);
-namespace Imbo\BehatApiExtension;
+namespace Selfmadeking\BehatApiExtension;
 
-use Imbo\BehatApiExtension\ArrayContainsComparator\Matcher;
-use Imbo\BehatApiExtension\Exception\ArrayContainsComparatorException;
+use Selfmadeking\BehatApiExtension\ArrayContainsComparator\Matcher;
+use Selfmadeking\BehatApiExtension\Exception\ArrayContainsComparatorException;
 use PHPUnit\Framework\TestCase;
 use InvalidArgumentException;
 
 /**
- * @coversDefaultClass Imbo\BehatApiExtension\ArrayContainsComparator
+ * @coversDefaultClass Selfmadeking\BehatApiExtension\ArrayContainsComparator
  */
 class ArrayContainsComparatorTest extends TestCase {
     /** @var ArrayContainsComparator */

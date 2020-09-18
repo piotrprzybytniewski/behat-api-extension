@@ -10,13 +10,13 @@ Feature: Setup steps can fail
                 formatters:
                     progress: ~
                 extensions:
-                    Imbo\BehatApiExtension:
+                    Selfmadeking\BehatApiExtension:
                         apiClient:
                             base_uri: http://localhost:8080
 
                 suites:
                     default:
-                        contexts: ['Imbo\BehatApiExtension\Context\ApiContext']
+                        contexts: ['Selfmadeking\BehatApiExtension\Context\ApiContext']
             """
 
     Scenario: Attach multipart file that does not exist

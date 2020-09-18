@@ -10,13 +10,13 @@ Feature: Test examples from the docs
                 formatters:
                     progress: ~
                 extensions:
-                    Imbo\BehatApiExtension:
+                    Selfmadeking\BehatApiExtension:
                         apiClient:
                             base_uri: http://localhost:8080
 
                 suites:
                     default:
-                        contexts: ['Imbo\BehatApiExtension\Context\ApiContext']
+                        contexts: ['Selfmadeking\BehatApiExtension\Context\ApiContext']
             """
 
     Scenario:

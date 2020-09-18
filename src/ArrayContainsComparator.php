@@ -1,7 +1,7 @@
 <?php declare(strict_types=1);
-namespace Imbo\BehatApiExtension;
+namespace Selfmadeking\BehatApiExtension;
 
-use Imbo\BehatApiExtension\Exception\ArrayContainsComparatorException;
+use Selfmadeking\BehatApiExtension\Exception\ArrayContainsComparatorException;
 use InvalidArgumentException;
 use Exception;
 

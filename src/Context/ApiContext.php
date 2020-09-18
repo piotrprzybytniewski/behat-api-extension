@@ -1,9 +1,9 @@
 <?php declare(strict_types=1);
-namespace Imbo\BehatApiExtension\Context;
+namespace Selfmadeking\BehatApiExtension\Context;
 
-use Imbo\BehatApiExtension\ArrayContainsComparator\Matcher\JWT as JwtMatcher;
-use Imbo\BehatApiExtension\ArrayContainsComparator;
-use Imbo\BehatApiExtension\Exception\AssertionFailedException;
+use Selfmadeking\BehatApiExtension\ArrayContainsComparator\Matcher\JWT as JwtMatcher;
+use Selfmadeking\BehatApiExtension\ArrayContainsComparator;
+use Selfmadeking\BehatApiExtension\Exception\AssertionFailedException;
 use Behat\Gherkin\Node\PyStringNode;
 use Behat\Gherkin\Node\TableNode;
 use GuzzleHttp\ClientInterface;
