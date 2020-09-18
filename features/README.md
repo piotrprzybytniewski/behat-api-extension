@@ -1,12 +1,12 @@
 # Behat tests
 
-For these tests to pass an HTTP server must be set up to listen on `http://localhost:8080`, with a document root set to the `bootstrap` directory. A composer script exists in `composer.json` that uses PHPs built in web server for this purpose.
+For these tests to pass a HTTP server must be set up to listen on `http://localhost:8080`. 
 
-In the project root directory, run the following command:
+In the project root directory, run the following command to run PHP built in web server for this purpose:
 
     composer dev --timeout=0
 
-and to execute the tests run (also from the project root):
+and to execute Behat tests run:
 
     composer test:behat
 
