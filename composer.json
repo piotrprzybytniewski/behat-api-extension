@@ -40,12 +40,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Imbo\\BehatApiExtension\\": "src/"
+      "Selfmadeking\\BehatApiExtension\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Imbo\\BehatApiExtension\\": "tests/"
+      "Selfmadeking\\BehatApiExtension\\": "tests/"
     }
   },
   "scripts": {
