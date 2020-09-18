@@ -7,6 +7,8 @@ Feature: Test examples from the docs
         Given a file named "behat.yml" with:
             """
             default:
+                translation:
+                    locale: en
                 formatters:
                     progress: ~
                 extensions:

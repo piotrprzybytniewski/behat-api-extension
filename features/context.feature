@@ -31,6 +31,8 @@ Feature: Client aware context
         Given a file named "behat.yml" with:
             """
             default:
+                translation:
+                    locale: en
                 extensions:
                     Selfmadeking\BehatApiExtension: ~
             """
@@ -57,6 +59,8 @@ Feature: Client aware context
         Given a file named "behat.yml" with:
             """
             default:
+                translation:
+                    locale: en
                 extensions:
                     Selfmadeking\BehatApiExtension:
                         apiClient:

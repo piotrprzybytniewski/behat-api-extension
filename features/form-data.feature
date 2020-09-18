@@ -7,6 +7,8 @@ Feature: Test form-data handling
         Given a file named "behat.yml" with:
             """
             default:
+                translation:
+                    locale: en
                 formatters:
                     progress: ~
                 extensions:

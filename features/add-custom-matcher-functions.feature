@@ -53,6 +53,8 @@ Feature: Custom function addition
         Given a file named "behat.yml" with:
             """
             default:
+                translation:
+                    locale: en
                 formatters:
                     progress: ~
                 extensions:
@@ -106,6 +108,8 @@ Feature: Custom function addition
         Given a file named "behat.yml" with:
             """
             default:
+                translation:
+                    locale: en
                 formatters:
                     progress: ~
                 extensions:
@@ -140,6 +144,8 @@ Feature: Custom function addition
         Given a file named "behat.yml" with:
             """
             default:
+                translation:
+                    locale: en
                 formatters:
                     progress: ~
                 extensions:
@@ -176,6 +182,8 @@ Feature: Custom function addition
         Given a file named "behat.yml" with:
             """
             default:
+                translation:
+                    locale: en
                 formatters:
                     progress: ~
                 extensions:
@@ -207,6 +215,8 @@ Feature: Custom function addition
         Given a file named "behat.yml" with:
             """
             default:
+                translation:
+                    locale: en
                 formatters:
                     progress: ~
                 extensions:
