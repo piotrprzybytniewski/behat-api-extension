@@ -1669,7 +1669,7 @@
         },
         {
             "name": "symfony/browser-kit",
-            "version": "v5.1.5",
+            "version": "v4.4.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/browser-kit.git",
